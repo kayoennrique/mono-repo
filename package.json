@@ -17,6 +17,7 @@
     "dev:web-public": "yarn web-public dev",
     "build:web-public": "yarn web-public build",
     "utils": "yarn workspace @alura/utils",
+    "design-system": "yarn workspace @alura/design-system",
     "test:design-system": "yarn design-system test",
     "test:utils": "yarn utils test"
   },
