@@ -11,14 +11,15 @@
     ]
   },
   "scripts": {
-    "test": "yarn workspaces run test",
     "lint": "yarn workspaces run lint",
     "web-public": "yarn workspace @alura/web-public",
-    "dev:web-public": "yarn web-public dev",
+    "test:web-public": "yarn web-public test",
     "build:web-public": "yarn web-public build",
-    "utils": "yarn workspace @alura/utils",
+    "start:web-public": "yarn web-public start",
+    "lint:web-public": "yarn workspaces lint",
     "design-system": "yarn workspace @alura/design-system",
     "test:design-system": "yarn design-system test",
+    "utils": "yarn workspace @alura/utils",
     "test:utils": "yarn utils test"
   },
   "devDependencies": {
